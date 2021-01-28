@@ -1,32 +1,40 @@
-#  Импортер за СУПТО "Фактуриране ЕУ" за OpenCart 3.x
-Модулът предлага съвместимост на онлайн магазини базирани на платформата [OpenCart](https://www.opencart.com/) с [Наредба за изменение и допълнение на Наредба № Н-18](https://nap.bg/document?id=1265). Наредбата засяга тези онлайн магазини, които обработват плащания с наложен платеж  и кредитни карти в следствие на това, че според българското законодателство са задължени да издават фискален бон при обработка на онлайн поръчките. 
+# SUPE "billing EW" for OpenCart 3.x
+The module offers compatibility of online stores based on the platform [OpenCart] (https://www.opencart.com/) C [Ordinance amending and supplementing Ordinance No. H-18] (https://nap.bg/document?  = 1265).  The Ordinance concerns these online stores that process payments with cash and credit cards as a result of the fact that, according to Bulgarian legislation, they are obliged to issue a fiscal bon when processing online orders.
 
-![СУПТО Импортер за OpenCart 3](/upload/system/library/fakturirane/preview.jpg)
+[Spencart for OpenCart 3] (/ UPLOAD / SYSTEM / LIBRARY / FAKTURANE / Preview.jpg)
 
-### Изисквания:
-- Онлайн магазин базиран на OpenCart версия 3.x;
-- Валиден лиценз за [СУПТО "Фактуриране ЕУ" с "облачна база данни" и "API функционалност"](https://fakturirane.eu/license/?supto=1&api=1&remote=1);
-- Фискално устройство отговарящо на изискванията на Наредба Н-18 [Tremol](https://xn--n1abffd.com/%D1%81%D1%83%D0%BF%D1%82%D0%BE-%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0/?provider_id=1), [Eltrade](https://xn--n1abffd.com/%D1%81%D1%83%D0%BF%D1%82%D0%BE-%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0/?provider_id=3) или [Datecs](https://xn--n1abffd.com/%D1%81%D1%83%D0%BF%D1%82%D0%BE-%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0/);
-- Допълнителния [модул "Склад"](https://fakturirane.eu/skladova-programa/) в СУПТО "Фактуриране ЕУ" не е съвместим ако работите с опции на продукти.
+### Requirements:
+- Online store based on OpenCART version 3.x;
+- Valid license for [soup "billing ES" with "cloud database" and "API functionality"] (https://fakturirane.eu/license/?supto=1&api=1&remote=1);
 
+Fiscal device complying with the requirements of Ordinance H-18 [Tremol] (https://xn--n1abffd.com/%D1%81%D1%82%D0%BE-%D1%  83% D1% 81% D1% 82% D1% 80% D0% BE% D0% B9% D1% 81% D1% 82% D0% B2% D0% B0 / Provider_ID = 1), [eltrade] (HTTPS:  //xn--n1abffd.com/%D1%81%D1%83%D0%BF%D1%82%D1%81%D1%82%D1%80%D0%BE  % D0% B9% D1% 81% D1% 82% D0% B2% D0% B0 / Provider_id = 3) or [DATECS] (https://xn--n1abffd.com/%D1%81%D1%83  % D0% bf% D1% 82% D0% BE-% D1% 83% D1% 81% D1% 82% D1% 80% D0% V% D0% B9% D1% 81% D1% 82% D0% B2%  D0% B0 /);
 
-### Инсталиране:  
-1) [Изтеглете модула от GitHub](https://github.com/evtimov/oc3-supto-importer/archive/1.0.4.zip) или официалния сайт на [OpenCart](https://www.opencart.com/index.php?route=marketplace/download&extension_id=37065);
-2) Влезте в административния панел на вашия онлайн магазин и изберете меню "Extensions" > "Installer";
-3) Натиснете бутона "Upload" и посочете zip файла.
+the additional [warehouse "Warehouse" module] (https://fakturirane.eu/skladova-programa/) in Supe "billing ES" is not compatible if you work with product options.
 
-### Настройки:
-В официалния сайт на СУПТО "Фактуриране ЕУ" са описани [индивидуалните настройки на Модула](https://fakturirane.eu/za-online-magazin/), включително:
+### Installing:
 
-- API настройки;
-- Начини на плащане;
-- Каталог;
-- Експортиране на поръчки към СУПТО;
-- Ръчно експортиране при прекъсване на интернет;
-- Импортиране на поръчка в СУПТО;
-- Допълнителна [API функционалност](https://fakturirane.eu/help/api/).
+1) [Download the module from GitHub] (https://github.com/evtimov/oc3-supto-importer/archive/1.0.4.zip) or the official site of [OpenCart] (https://www.opencart.com  /index.php?Route=marketplace/download&extension_id=37065);
 
-След като инсталирате и настроите този модул, направените поръчки в онлайн магазина автоматично се импортират в облачната база на СУПТО, след което можете да ги обработите чрез [СУПТО "Фактуриране ЕУ"](https://fakturirane.eu/supto/).
+2) Enter the administrative panel of your online store and select the "EXTENSIONS" menu> "Installer";
 
----
-&copy; 2019 "ЛИЦЕНЗ" ЕООД  &nbsp;  | &nbsp; [Авторско право и лиценз](LICENSE.md)
+3) Press the "UPLOAD" button and specify the ZIP file.
+
+### Settings:
+
+On the official site of Supe "billing ES" describes [individual module settings] (https://fakturirane.eu/za-online-magazin/), including:
+
+- API settings;
+
+- ways of payment;
+
+- catalog;
+
+- export of orders to Soupen;
+
+- manual export when interrupting the Internet;
+
+- importing an order in Soupen;
+
+- Additional [API functionality] (https://fakturirane.eu/help/api/).
+
+Once you install and set this module, the orders made online are automatically imported into Supta's cloud base, and then you can process them through the [Supe "billing EU"] (https://fakturirane.eu/supto/).
